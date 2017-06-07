@@ -1,0 +1,7 @@
+.example {
+  display: flex;
+}
+
+.example::after {
+  content: 'example';
+}
