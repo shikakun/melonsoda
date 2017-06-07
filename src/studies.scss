@@ -1,2 +1,80 @@
 @import '../node_modules/normalize-scss/sass/normalize/import-now';
 @import 'foundation/**/*';
+
+#container {
+  position: relative;
+  min-height: 100vh;
+  padding: 2em;
+  @include media-breakpoint-up(medium) {
+    max-width: 48em;
+    padding: 4em;
+    margin: 0 auto 0 0;
+  }
+}
+
+#container-inner {
+  // #blog-title をいちばん下に表示するための隙間を空けておく
+  padding-bottom: 12em;
+}
+
+#blog-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2em;
+  @include media-breakpoint-up(medium) {
+    padding: 4em;
+  }
+}
+
+#blog-title-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#title {
+  > a {
+    color: $color-lime;
+  }
+}
+
+#blog-description {
+  color: $color-lime;
+  @include media-breakpoint-down(small) {
+    display: none;
+  }
+}
+
+.entry {
+  & + & {
+    margin-top: 4em;
+  }
+}
+
+.entry-header {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.entry-header-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.entry-content {
+  text-align: justify;
+}
+
+.pager {
+  margin-top: 4em;
+  text-align: right;
+}
+
+// hidden elements
+.entry-date,
+.entry-footer,
+body.page-entry .pager {
+  display: none;
+}

@@ -1,10 +1,14 @@
 $color-white: #fff;
 $color-black: #000;
+$color-limeLight: #f4ff81;
+$color-lime: #4caf50;
+$color-limeDark: #1b5e20;
 
 body {
-  color: $color-black;
+  color: $color-limeDark;
+  background-color: $color-limeLight;
 }
 
 a {
-  color: $color-black;
+  color: $color-limeDark;
 }
