@@ -1,0 +1,9 @@
+{
+  "name": "studies",
+  "version": "1.0.0",
+  "description": "Hatena Blog Theme",
+  "main": "README.md",
+  "repository": "https://github.com/shikakun/studies.git",
+  "author": "shikakun <shikakun@shikakun.com>",
+  "license": "MIT"
+}
