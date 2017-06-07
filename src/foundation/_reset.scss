@@ -1,0 +1,81 @@
+// デフォルトで padding をつけない
+ol,
+ul {
+  padding: 0;
+}
+
+// デフォルトで margin をつけない
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+dl,
+dd,
+p,
+figure {
+  margin: 0;
+}
+
+// デフォルトで太字にしない
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+// デフォルトで斜体にしない
+em {
+  font-style: normal;
+}
+
+// デフォルトで文字の大きさを変えない
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+// デフォルトで境界線をつけない
+abbr[title] {
+  border: 0;
+}
+
+// デフォルトでテキストに下線を引かない
+a {
+  text-decoration: none;
+}
+
+// リストには記号をつけない
+ol,
+ul {
+  list-style: none;
+}
+
+// Internet Explorer の一部のバージョンでテキストフォームに表示される要素を隠す
+input::-ms-clear,
+input::-ms-reveal,
+select::-ms-expand {
+  display: none;
+}
+
+// すべての要素のサイズは border-box で指定する
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// 画像の幅は親要素の 100% を超えることがないようにする
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'StudiesSystem';
+  src:  local('-apple-system'),
+        local('BlinkMacSystemFont'),
+        local('.SFNSDisplay-Regular'),
+        local('Segoe UI');
+}
+
+@font-face {
+  font-family: 'StudiesSansSerif';
+  font-weight: 400;
+  src:  local('HelveticaNeue'),
+        local('Helvetica Neue'),
+        local('Helvetica'),
+        local('Arial');
+}
+
+@font-face {
+  font-family: 'StudiesSansSerif';
+  font-weight: 700;
+  src:  local('HelveticaNeueBold'),
+        local('HelveticaNeue-Bold'),
+        local('Helvetica Neue Bold'),
+        local('HelveticaBold'),
+        local('Helvetica-Bold'),
+        local('Helvetica Bold'),
+        local('Arial Bold');
+}
+
+@font-face {
+  font-family: 'StudiesHiragino';
+  font-weight: 400;
+  src:  local('Hiragino Sans'),
+        local('ヒラギノ角ゴ ProN W3'),
+        local('Hiragino Kaku Gothic ProN');
+}
+
+@font-face {
+  font-family: 'StudiesHiragino';
+  font-weight: 700;
+  src:  local('Hiragino Sans'),
+        local('ヒラギノ角ゴ ProN W6'),
+        local('Hiragino Kaku Gothic ProN W6');
+}
+
+html {
+  font-family: 'StudiesSystem', 'StudiesSansSerif', 'StudiesHiragino', 'メイリオ', Meiryo, Osaka, 'MS UI Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'palt' 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  letter-spacing: 0.4px;
+}
+
+body {
+  font-size: 1.4rem;
+}

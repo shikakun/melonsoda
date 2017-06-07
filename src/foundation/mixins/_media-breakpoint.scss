@@ -1,0 +1,30 @@
+$breakpoint-medium: 768px;
+$breakpoint-large : 992px;
+
+@mixin media-breakpoint-up($size: medium) {
+  @if $size == medium {
+    @media screen and (min-width: $breakpoint-medium) {
+      @content;
+    }
+  }
+
+  @if $size == large {
+    @media screen and (min-width: $breakpoint-large) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-down($size: small) {
+  @if $size == small {
+    @media screen and (max-width: ($breakpoint-medium - 1px)) {
+      @content;
+    }
+  }
+
+  @if $size == medium {
+    @media screen and (max-width: ($breakpoint-large - 1px)) {
+      @content;
+    }
+  }
+}

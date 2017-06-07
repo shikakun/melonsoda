@@ -11,7 +11,8 @@ const rules = [
         use: [
           'css-loader',
           'postcss-loader',
-          'sass-loader'
+          'sass-loader',
+          'import-glob-loader'
         ]
       }
     )
