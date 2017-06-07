@@ -1,7 +1,1 @@
-.example {
-  display: flex;
-}
-
-.example::after {
-  content: 'example';
-}
+.example{display:-webkit-box;display:-ms-flexbox;display:flex}.example:after{content:"example"}
