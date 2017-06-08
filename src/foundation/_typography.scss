@@ -55,4 +55,8 @@ html {
 
 body {
   font-size: 1.4rem;
+  line-height: 1.88;
+  @include media-breakpoint-up(medium) {
+    font-size: 1.6rem;
+  }
 }
