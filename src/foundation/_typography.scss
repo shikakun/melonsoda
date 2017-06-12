@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'StudiesSystem';
+  font-family: 'MelonsodaSystem';
   src:  local('-apple-system'),
         local('BlinkMacSystemFont'),
         local('.SFNSDisplay-Regular'),
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'StudiesSansSerif';
+  font-family: 'MelonsodaSansSerif';
   font-weight: 400;
   src:  local('HelveticaNeue'),
         local('Helvetica Neue'),
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: 'StudiesSansSerif';
+  font-family: 'MelonsodaSansSerif';
   font-weight: 700;
   src:  local('HelveticaNeueBold'),
         local('HelveticaNeue-Bold'),
@@ -28,7 +28,7 @@
 }
 
 @font-face {
-  font-family: 'StudiesHiragino';
+  font-family: 'MelonsodaHiragino';
   font-weight: 400;
   src:  local('Hiragino Sans'),
         local('ヒラギノ角ゴ ProN W3'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'StudiesHiragino';
+  font-family: 'MelonsodaHiragino';
   font-weight: 700;
   src:  local('Hiragino Sans'),
         local('ヒラギノ角ゴ ProN W6'),
@@ -44,7 +44,7 @@
 }
 
 html {
-  font-family: 'StudiesSystem', 'StudiesSansSerif', 'StudiesHiragino', 'メイリオ', Meiryo, Osaka, 'MS UI Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'MelonsodaSystem', 'MelonsodaSansSerif', 'MelonsodaHiragino', 'メイリオ', Meiryo, Osaka, 'MS UI Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   text-rendering: optimizeLegibility;
   font-feature-settings: 'palt' 1;
   -webkit-font-smoothing: antialiased;

@@ -1,3 +1,3 @@
-:books: **studies.shikakun.com**
+# Melonsoda
 
 :cat2: development `$ yarn run start`

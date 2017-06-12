@@ -20,12 +20,12 @@ const rules = [
 ];
 
 const plugins = [
-  new ExtractTextPlugin('studies.css')
+  new ExtractTextPlugin('melonsoda.css')
 ];
 
 module.exports = {
   entry: {
-    studies: './src/studies.scss'
+    melonsoda: './src/melonsoda.scss'
   },
   output: {
     filename: '[name].css',
